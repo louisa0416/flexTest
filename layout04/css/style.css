@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Microsoft JhengHei;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+/* 自訂css --------------------------------------------------*/
+
+.header {
+  background-color: #e7eeea;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 10px -3px #c8c8c8;
+
+  position: sticky;
+  top: 0px;
+}
+.header .logo {
+  margin: 0 40px;
+  /* border: 1px solid #354e3b; */
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 40px;
+  /* border: 1px solid #354e3b; */
+}
+.menu li {
+  margin-right: 20px;
+}
+.header .menu li a {
+  display: block;
+  text-decoration: none;
+  color: #354e3b;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.header .menu li a:hover {
+  color: #000;
+}
+
+.articale {
+  width: 620px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+.articale h3 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #354e3b;
+}
+.articale p {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: black;
+}
+
+.articale .picture {
+  margin: 10px 0;
+}
+.footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #354e3b;
+  align-items: center;
+}
+.footer .menu {
+  border: 1px solid #354e3b;
+  width: 400px;
+}
+.footer .menu li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.footer .menu li a:hover {
+  color: #e7eeea;
+  border-bottom: 1px solid #e7eeea;
+}

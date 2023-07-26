@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Microsoft JhengHei;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* 自訂css --------------------------------------------------*/
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #37523d;
+  padding: 15px;
+}
+
+.header {
+  width: 100%;
+  background-color: #e7eeea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.header a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #37523d;
+  border-bottom: 2px solid #e7eeea;
+}
+
+.header a:hover {
+  border-bottom: 2px solid #37523d;
+}
+
+.layer1-wrapper {
+  width: 100%;
+  background-color: #fff;
+  padding: 50px 10px 20px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.layer1-wrapper img {
+  margin: 0 40px;
+}
+.layer2-wrapper {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #37523d;
+}
+
+.article h3 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.article p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.layer2-wrapper ul {
+  display: flex;
+}
+
+.layer2-wrapper a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #37523d;
+  border-bottom: 1px solid transparent;
+  margin-right: 10px;
+}
+
+.layer2-wrapper a:hover {
+  border-bottom: 1px solid #000;
+  color: #000;
+}
