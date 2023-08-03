@@ -1,0 +1,29 @@
+/* 自訂css --------------------------------------------------*/
+.wrapper {
+  width: 300px;
+  margin: 0 auto;
+}
+h1 {
+  color: #354e3b;
+  margin: 10px;
+  font-size: 30px;
+}
+ul {
+  list-style-type: decimal;
+}
+
+ul li {
+  /* display: block; */
+  margin: 30px;
+  color: #354e3b;
+}
+ul li a {
+  /* display: block; */
+  padding: 5px;
+  text-decoration: none;
+  color: #354e3b;
+  border-bottom: 1px solid transparent;
+}
+ul li a:hover {
+  border-bottom: 1px solid #354e3b;
+}
